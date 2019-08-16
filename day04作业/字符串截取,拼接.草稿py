@@ -1,0 +1,69 @@
+#!/usr/bin/python
+#-*-:coding:utf-8 -*-
+#-*-:author: 李海云-*-=
+
+'''str=input("请输入一个字符串:")
+while 1:
+    if len(str)>=20:
+        for i in str:
+            if i =="_" or i>="a" and i>="A" or i>="0" and i<="9":
+                pass
+            else:
+                str=input("请重新输入:")
+        str1=input("请输入一个字符;")
+        if str1 in str:
+            list1=str1.split(str)
+            for x in range(1,len(list1)+1):
+                if list1[x]=="":
+                    del list1[x]
+                else:
+                    pass
+            list2=[]
+            str4="".join(list1)
+            for y in list1:
+                if y not in str4:
+                    list2,append(y)
+                else:
+                    pass
+            str3="".join(list2)
+    print(str3)
+    break
+
+str3="111111111222222233333"
+list2=[]
+for y in str3:
+    if y not in list2:
+        list2.append(y)
+    else:
+        pass
+    str4 = "".join(list2)
+print(str4)
+str=input("请输入一个字符串:")
+while 1:
+    if len(str)>=20:
+        for i in str:
+            if i =="_" or i>="a" and i>="A" or i>="0" and i<="9":
+                break
+            else:
+                while 1:
+                    str=input("请重新输入:")
+                    if len(str)>=20:
+                        break
+    else:
+        str=input("请重新输入:")
+
+str=input("请输入一个字符串:")
+while 1:#死循环逻辑条件兼并问题解决办法
+    for i in str:
+        if i == "_" or i >= "a" and i >= "A" or i >= "0" and i <= "9":
+            jj = 1
+        else:
+            jj = 0
+            break
+    if len(str)>=20 and jj==1:
+        break
+    else:
+        str=input("请重新输入:")'''
+
+
+
